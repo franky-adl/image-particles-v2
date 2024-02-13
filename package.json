@@ -1,0 +1,20 @@
+{
+  "name": "image-particles-v2",
+  "version": "1.0.1",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {
+    "dat.gui": "0.x",
+    "gsap": "^3.12.5",
+    "three": "0.x"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "keywords": []
+}
